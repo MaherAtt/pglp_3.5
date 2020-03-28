@@ -5,15 +5,9 @@ import org.slf4j.LoggerFactory;
 
 public  class LogAffichage {
     
-	private Logger logger ;
-	public LogAffichage(Logger k)
-	{
-		logger=k;
-	}
 	
-    void affiche(String msg)
+    public static void affiche(Logger l,String msg)
     {
-
-    	lg.info(msg);
+    	l.info(msg);
     }
 }	
