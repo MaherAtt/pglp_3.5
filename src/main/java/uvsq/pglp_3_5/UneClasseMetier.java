@@ -1,8 +1,8 @@
 package uvsq.pglp_3_5;
 
-public class UneClasseMetier {
+static class UneClasseMetier {
 		
-		
+		LogAffichage.
 		// Traitements Métier
 		
 }	
