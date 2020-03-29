@@ -4,10 +4,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 public  class LogAffichage {
-    
-	
-    public static void affiche(Logger l,String msg)
-    {
-    	l.info(msg);
-    }
-}	
+  public static void affiche(Logger l,String msg) {
+    l.info(msg);
+  }
+}
